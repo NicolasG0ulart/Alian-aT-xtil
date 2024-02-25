@@ -3,6 +3,7 @@ import * as S from "./Styles"
 
 import Banner from "./Banner/Banner";
 import AboutUs from "./AboutUs/AboutUs";
+import Products from "./Products/Products";
 
 export default function Main(){
 
@@ -10,6 +11,7 @@ export default function Main(){
         <S.Main>
             <Banner/>
             <AboutUs/>
+            <Products/>
         </S.Main>
     )
 }
