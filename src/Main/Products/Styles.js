@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Products = styled.section`
     height: 700px;
     max-width: 1440px;
-    margin: 70px auto;
+    margin: 100px auto;
 `
 export const TextProduct = styled.section`
     display: flex;
