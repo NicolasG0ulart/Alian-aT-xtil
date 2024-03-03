@@ -2,53 +2,55 @@ import styled from "styled-components";
 
 export const Contact = styled.section`
     width: 100%;
-    height: 400px;
-    border-top: solid 2px #0b347a;
+    height: 250px;
+    background-color: #0b347a;
 `
 export const Content = styled.div`
     display: flex;
     justify-content: space-between;
-    gap: 100px;
     max-width: 1440px;
+    height: 100%;
     margin: 0 auto;
 `
 export const Left = styled.div`
     display: flex;
-    width: 50%;
     align-items: center;
-
+    height: 100%;
     max-width: 1440px;
-    margin: 0 auto;
-    height: 300px;
+    height: 100%;
     img{
-        height: 55px;
+        height: 70px;
     }
     span{
-        margin-left: 50px;
+        margin-left: 30px;
         height: 45%;
-        border: solid 1px #0b347a;
+        border: solid 1px white;
     }
     p{ 
-        margin-left: 50px;
-        color: #0b347a;
+        margin-left: 30px;
         font-size: 1.2rem;
         font-weight: 500;
         width: 360px;
     }
 `
-export const Right = styled.div`
-    width: 50%;
+export const Right = styled.div`    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
     max-width: 1440px;
-    margin: 0 auto;
-    height: 300px;
+    height: 100%;
 
     p{
-        color: #0b347a;
+        width: 270px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         font-size: 1.2rem;
         font-weight: 500;
+
+        img{
+            height: 20px;
+        }
     }
 `
