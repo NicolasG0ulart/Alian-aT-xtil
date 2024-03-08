@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import BannerImg from "../../assets/banner.jpg"
 export const BannerSection = styled.section`
-    height: 100%;
+    height: 370px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,5 +18,8 @@ export const Text = styled.div`
     h1{
         font-size: 2.1rem;
         font-family: 'Inter', sans-serif;
+    }
+    @media(max-width: 1500px){
+        margin-inline: 50px;
     }
 `

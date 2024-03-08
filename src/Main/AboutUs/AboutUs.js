@@ -6,8 +6,6 @@ export default function AboutUs(){
 
     return(
         <S.AboutUs>
-            
-
             <S.Texts>
                 <h1>SOBRE NÓS</h1>
                 <p>

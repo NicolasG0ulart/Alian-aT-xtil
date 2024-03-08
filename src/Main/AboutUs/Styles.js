@@ -16,13 +16,25 @@ export const AboutUs = styled.section`
         width: 45%;
         border-radius: 10px;
     }
+    @media(max-width: 1500px){
+        margin-inline: 50px;
+    }
+    @media(max-width: 1024px){
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
 `
 export const Texts = styled.div`
+    border: solid red;
     p{
         margin-top: 20px;
         font-weight: 500;
         line-height: 20px;
         width: 450px;
         color: #104086;
+        @media(max-width: 1024px){
+            width: 100%;
+        }
     }
 `
