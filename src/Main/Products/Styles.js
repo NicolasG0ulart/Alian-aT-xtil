@@ -9,7 +9,6 @@ export const TextProduct = styled.section`
     justify-content: center;
 `
 export const Texts = styled.div`
-    border: solid red;
     h1{
         text-align: center;
         color: #104086;

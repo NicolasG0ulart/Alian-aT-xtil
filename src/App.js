@@ -1,5 +1,11 @@
-import Header from "./Header/Header"
-import Main from "./Main/Main"
+//react router
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+
+//pages
+import Home from "./Pages/Home/Home"
+import AboutUsPage from "./Pages/AboutUsPage/About"
+import ProductsPage from "./Pages/Products/Products"
+import ContactPage from "./Pages/Contact/Contact"
 
 import { createGlobalStyle } from "styled-components";
 
@@ -25,10 +31,17 @@ export default function App(){
 
 
   return(
-    <div>
-      <GlobalStyle/>
-      <Header/>
-      <Main/>
-    </div>
+    <>
+    <GlobalStyle/>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/sobre-nos" element={<AboutUsPage/>}/>
+        <Route path="/produtos" element={<ProductsPage/>}/>
+        <Route path="/contato" element={<ContactPage/>}/>
+        <Route path="*" element={<AboutUsPage/>}/>
+      </Routes>
+    </Router>
+    </>
   )
 }

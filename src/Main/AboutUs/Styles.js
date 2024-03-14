@@ -26,7 +26,6 @@ export const AboutUs = styled.section`
     }
 `
 export const Texts = styled.div`
-    border: solid red;
     p{
         margin-top: 20px;
         font-weight: 500;

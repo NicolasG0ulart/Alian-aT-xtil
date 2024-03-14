@@ -1,6 +1,8 @@
 import React from "react";
 import * as S from "./Styles"
 
+import Team from "../../assets/team.PNG"
+
 
 export default function AboutUs(){
 
@@ -27,7 +29,7 @@ export default function AboutUs(){
             
             </S.Texts>
 
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcM1vjzTqH9BaU6CcX_XM5QGiGYGSf2QaJGkIA1sk0GB5UMaAPYXSbY-AHotNq7FHXNaE&usqp=CAU" alt="Imagem da Equipe"/>
+            <img src={Team} alt="Imagem da Equipe"/>
                 
         </S.AboutUs>
     )

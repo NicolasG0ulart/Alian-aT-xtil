@@ -1,4 +1,10 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom"
+
+export const LinkS = styled(Link)`
+    text-decoration: none;
+    color: #181818;
+`
 
 export const Header = styled.header`
     max-width: 1440px;
