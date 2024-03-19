@@ -7,7 +7,7 @@ export default function About (){
     return(
         <>
             <Header/>
-            <h1>contatoo</h1>
+            página de contato
         </>
     )
 }

@@ -7,7 +7,7 @@ export default function About (){
     return(
         <>
             <Header/>
-            <h1>produtos</h1>
+            página de produtos
         </>
     )
 }
